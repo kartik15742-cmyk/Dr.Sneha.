@@ -1,0 +1,1632 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="web_standard" name="shell-type"/>
+  <title>Dr. Sneha's Dental Care | Smile Specialists | Adipur, Gujarat</title>
+  <meta name="description" content="Dr. Sneha's Dental Care Clinic in Adipur, Gujarat. Expert cosmetic dentistry, dental implants, root canal treatment, and pediatric dental care. 4.9★ rated with 916+ reviews." />
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+  <style>
+    /* Natural, smooth scrolling with header offset */
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+      -webkit-text-size-adjust: 100%;
+    }
+    @media (min-width: 768px) {
+      html {
+        scroll-padding-top: 130px;
+      }
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      overflow-x: clip;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    @supports not (overflow-x: clip) {
+      body {
+        overflow-x: hidden;
+      }
+    }
+    @layer base {
+      main > :first-child { margin-top: 0 !important; }
+      main > :last-child { margin-bottom: 0 !important; }
+    }
+
+    /* Clean modern scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f4f4f2;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #bfc8c9;
+      border-radius: 6px;
+      border: 2px solid #f4f4f2;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #003539;
+    }
+
+    /* Responsive clamp for hero title */
+    .hero-heading {
+      font-size: clamp(1.85rem, 5.5vw + 0.5rem, 3.5rem);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      word-break: break-word;
+    }
+
+    /* Media query for screens under 640px (Mobile Phones) */
+    @media (max-width: 639px) {
+      .hero-heading {
+        font-size: clamp(1.75rem, 6.8vw, 2.35rem);
+        line-height: 1.2;
+      }
+      .mobile-header {
+        height: 72px !important;
+      }
+      .mobile-logo {
+        height: 38px !important;
+        width: auto !important;
+      }
+      .stats-val {
+        font-size: clamp(1.75rem, 7vw, 2.25rem) !important;
+        line-height: 2.25rem !important;
+      }
+      .floating-btn {
+        width: 44px !important;
+        height: 44px !important;
+        padding: 0 !important;
+        border-radius: 9999px !important;
+        justify-content: center !important;
+      }
+      .floating-btn-icon {
+        width: 44px !important;
+        height: 44px !important;
+      }
+    }
+
+    /* Media query for screens under 380px (Compact Mobile) */
+    @media (max-width: 379px) {
+      .hero-heading {
+        font-size: 1.6rem !important;
+        line-height: 1.22 !important;
+      }
+      .btn-header-appointment {
+        padding-left: 0.55rem !important;
+        padding-right: 0.55rem !important;
+        padding-top: 0.4rem !important;
+        padding-bottom: 0.4rem !important;
+        font-size: 10px !important;
+      }
+      .mobile-header-padding {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+      }
+      .floating-btn {
+        width: 40px !important;
+        height: 40px !important;
+      }
+      .floating-btn-icon {
+        width: 40px !important;
+        height: 40px !important;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary-fixed-dim": "#98d0d6",
+            "on-secondary-fixed": "#002022",
+            "on-secondary-fixed-variant": "#224d51",
+            "secondary-container": "#beeaef",
+            "primary": "#003539",
+            "primary-fixed": "#b3edf2",
+            "secondary-fixed": "#beeaef",
+            "on-surface-variant": "#404849",
+            "on-background": "#1a1c1b",
+            "tertiary-container": "#004e48",
+            "error-container": "#ffdad6",
+            "on-primary-fixed-variant": "#0d4e54",
+            "error": "#ba1a1a",
+            "surface-container": "#eeeeec",
+            "background": "#f9f9f7",
+            "surface-container-highest": "#e2e3e1",
+            "tertiary-fixed": "#70f8e8",
+            "outline-variant": "#bfc8c9",
+            "on-surface": "#1a1c1b",
+            "inverse-on-surface": "#f1f1ef",
+            "surface-variant": "#e2e3e1",
+            "tertiary": "#003531",
+            "inverse-primary": "#98d0d6",
+            "on-tertiary": "#ffffff",
+            "inverse-surface": "#2f3130",
+            "surface-container-lowest": "#ffffff",
+            "surface-dim": "#dadad8",
+            "on-error": "#ffffff",
+            "secondary-fixed-dim": "#a3ced3",
+            "on-secondary-container": "#416b6f",
+            "on-primary": "#ffffff",
+            "on-tertiary-container": "#32c6b8",
+            "on-primary-fixed": "#002022",
+            "surface-container-low": "#f4f4f2",
+            "on-tertiary-fixed-variant": "#005049",
+            "outline": "#707979",
+            "on-error-container": "#93000a",
+            "surface": "#f9f9f7",
+            "secondary": "#3b6569",
+            "surface-bright": "#f9f9f7",
+            "on-tertiary-fixed": "#00201d",
+            "surface-tint": "#2d676c",
+            "tertiary-fixed-dim": "#4fdbcc",
+            "on-primary-container": "#84bdc2",
+            "surface-container-high": "#e8e8e6",
+            "primary-container": "#0a4d52",
+            "on-secondary": "#ffffff"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          spacing: {
+            "space-xl": "3rem",
+            "margin-mobile": "1.25rem",
+            "gutter": "1.5rem",
+            "margin": "3rem",
+            "gutter-mobile": "1rem",
+            "space-xs": "0.25rem",
+            "space-sm": "0.5rem",
+            "space-lg": "1.75rem",
+            "space-md": "1rem"
+          },
+          fontFamily: {
+            "display-lg": [ "Playfair Display" ],
+            "headline-lg": [ "Playfair Display" ],
+            "label-lg": [ "Plus Jakarta Sans" ],
+            "headline-md": [ "Playfair Display" ],
+            "title-lg": [ "Plus Jakarta Sans" ],
+            "headline-sm": [ "Playfair Display" ],
+            "headline-lg-mobile": [ "Playfair Display" ],
+            "display-lg-mobile": [ "Playfair Display" ],
+            "body-lg": [ "Plus Jakarta Sans" ],
+            "title-md": [ "Plus Jakarta Sans" ],
+            "label-md": [ "Plus Jakarta Sans" ],
+            "body-sm": [ "Plus Jakarta Sans" ],
+            "body-md": [ "Plus Jakarta Sans" ]
+          },
+          fontSize: {
+            "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "500" } ],
+            "headline-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" } ],
+            "label-lg": [ "13px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" } ],
+            "headline-md": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "400" } ],
+            "title-lg": [ "18px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" } ],
+            "headline-sm": [ "22px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "500" } ],
+            "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "400" } ],
+            "display-lg-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "500" } ],
+            "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" } ],
+            "title-md": [ "16px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "600" } ],
+            "label-md": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" } ],
+            "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" } ],
+            "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-fixed">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+    <!-- Desktop Top Announcement Bar (Hidden on Mobile) -->
+    <div class="bg-primary text-on-primary border-b border-primary-container/40 hidden md:block">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 h-10 flex items-center justify-between font-label-md text-label-md">
+        <div class="flex items-center gap-space-lg">
+          <a class="flex items-center gap-1.5 opacity-90 hover:opacity-100 hover:text-tertiary-fixed transition-colors" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+            <span class="material-symbols-outlined text-[15px] text-tertiary-fixed">location_on</span>
+            <span>Shop No. 1, DAZ 9, Opp. Divine Life Hospital, Adipur, Gujarat</span>
+          </a>
+          <div class="flex items-center gap-1.5 opacity-90">
+            <span class="material-symbols-outlined text-[15px] text-tertiary-fixed">schedule</span>
+            <span>Mon - Sat: 9:30 AM - 1:30 PM, 4:30 PM - 8:30 PM</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-space-md">
+          <a class="flex items-center gap-1.5 text-tertiary-fixed hover:text-white transition-colors" href="tel:+919898738509">
+            <span class="material-symbols-outlined text-[15px]">call</span>
+            <span class="font-semibold">+91 98987 38509</span>
+          </a>
+          <span class="opacity-40">|</span>
+          <a class="flex items-center gap-1 text-tertiary-fixed hover:text-white transition-colors tracking-wide uppercase" href="https://wa.me/919898738509?text=Hello%20Dr.%20Sneha%27s%20Dental%20Care,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." rel="noopener noreferrer" target="_blank">
+            <span class="material-symbols-outlined text-[15px]">chat</span>
+            <span>WhatsApp Consult</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navigation Bar: ~72px height on mobile, 80px on desktop -->
+    <div class="mobile-header h-[72px] md:h-20 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 h-full flex items-center justify-between gap-2 sm:gap-space-md mobile-header-padding">
+        <!-- Brand Logo & Name -->
+        <a class="flex items-center gap-2.5 sm:gap-3 group shrink-0 min-w-0" data-path="home" href="#">
+          <img alt="Dr. Sneha's Dental Care Clinic Logo" class="mobile-logo h-[38px] md:h-12 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHSuLQBcUP0uaxQ3Q19ukAadtsiWczXFxGL21tc1ItbsBP8rg5V1Qk9FneuXcwtEIqUzIVG8vO0NOQUCOir6I_BJLW4pUYzWUeQe1CGDeiVuv-rGcbOUtY1Ev9kuwIZYSYO6JVJ4xG8U3hMt98NlbpNVIXmwG84WQ0o-MblTVTBRFyxeRPXEVQmyjIUnPn6zbmbijODfKsO2G-c_ngulyNnmrUJ6qHlSS8kKPegDbt-CBRaQns8N4"/>
+          <!-- Clinic name hidden on mobile under 640px to completely prevent overlap -->
+          <div class="hidden sm:flex flex-col min-w-0">
+            <span class="font-headline-sm text-headline-sm tracking-tight text-primary leading-none group-hover:text-secondary transition-colors truncate">Dr. Sneha's Dental Care</span>
+            <span class="font-label-md text-label-md uppercase tracking-wider text-secondary mt-1 font-semibold truncate">Cosmetic &amp; Implant Center • Adipur</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden xl:flex items-center gap-6" data-active-classes="text-primary font-title-md font-semibold">
+          <a aria-current="page" class="transition-colors text-primary font-title-md font-semibold" data-path="home" href="#">Home</a>
+          <a class="font-title-md text-title-md text-on-surface-variant hover:text-primary transition-colors" data-path="about-dr-sneha" href="#about">About Dr. Sneha</a>
+          <a class="font-title-md text-title-md text-on-surface-variant hover:text-primary transition-colors" data-path="treatments" href="#treatments">Treatments</a>
+          <a class="font-title-md text-title-md text-on-surface-variant hover:text-primary transition-colors" data-path="cases" href="#cases">Transformations</a>
+          <a class="font-title-md text-title-md text-on-surface-variant hover:text-primary transition-colors" data-path="clinic-tour" href="#clinic-infrastructure">Clinic Tour</a>
+          <a class="font-title-md text-title-md text-on-surface-variant hover:text-primary transition-colors" data-path="patient-reviews" href="#reviews">Reviews</a>
+          <a class="font-title-md text-title-md text-on-surface-variant hover:text-primary transition-colors" data-path="clinic-location" href="#location">Find Us</a>
+          <a class="font-title-md text-title-md text-on-surface-variant hover:text-primary transition-colors" data-path="faq" href="#faq">FAQ</a>
+        </nav>
+
+        <!-- Right Header Actions: Compact on mobile, no overlap -->
+        <div class="flex items-center gap-2 sm:gap-4 shrink-0">
+          <a class="hidden 2xl:flex items-center gap-2 px-3 py-2 rounded-full text-secondary hover:bg-surface-container-low transition-colors font-title-md text-title-md" href="tel:+919898738509">
+            <span class="material-symbols-outlined text-[20px]">call</span>
+            <span class="font-semibold">+91 98987 38509</span>
+          </a>
+          <a class="btn-header-appointment inline-flex items-center justify-center px-3.5 py-2 sm:px-5 sm:py-2.5 rounded-full bg-primary-container text-on-primary font-label-lg text-[11px] sm:text-label-lg uppercase tracking-wider hover:bg-primary transition-all duration-200 shadow-[0_4px_14px_rgba(10,77,82,0.2)] hover:shadow-[0_6px_20px_rgba(10,77,82,0.3)] whitespace-nowrap" data-path="book-appointment" href="#appointment">
+            <span class="hidden min-[380px]:inline">Book Appointment</span>
+            <span class="inline min-[380px]:hidden">Book</span>
+          </a>
+          <a aria-label="Visit Clinic Map Location" class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-secondary-container hover:bg-primary-container text-primary hover:text-white flex items-center justify-center transition-colors shrink-0" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank" title="View Clinic on Google Maps">
+            <span class="material-symbols-outlined text-[17px] sm:text-[19px]">pin_drop</span>
+          </a>
+          <!-- Mobile Menu Hamburger Button -->
+          <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="xl:hidden w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-surface-container-high hover:bg-secondary-container text-primary flex items-center justify-center transition-colors shrink-0" aria-label="Toggle navigation menu" type="button">
+            <span class="material-symbols-outlined text-[20px]">menu</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer (hidden by default) -->
+    <div id="mobile-menu" class="hidden xl:hidden bg-surface-container-lowest/98 backdrop-blur-2xl border-b border-outline-variant/30 px-6 py-5 shadow-2xl transition-all duration-300 max-h-[calc(100vh-80px)] overflow-y-auto">
+      <nav class="flex flex-col gap-2 font-title-md text-title-md">
+        <a href="#" onclick="toggleMobileMenu()" class="py-2.5 text-primary font-semibold border-b border-outline-variant/20 flex items-center justify-between">
+          <span>Home Overview</span>
+          <span class="material-symbols-outlined text-[18px]">home</span>
+        </a>
+        <a href="#about" onclick="toggleMobileMenu()" class="py-2.5 text-on-surface-variant hover:text-primary transition-colors border-b border-outline-variant/20 flex items-center justify-between">
+          <span>About Dr. Sneha</span>
+          <span class="material-symbols-outlined text-[18px]">person</span>
+        </a>
+        <a href="#treatments" onclick="toggleMobileMenu()" class="py-2.5 text-on-surface-variant hover:text-primary transition-colors border-b border-outline-variant/20 flex items-center justify-between">
+          <span>Dental Treatments</span>
+          <span class="material-symbols-outlined text-[18px]">dentistry</span>
+        </a>
+        <a href="#cases" onclick="toggleMobileMenu()" class="py-2.5 text-on-surface-variant hover:text-primary transition-colors border-b border-outline-variant/20 flex items-center justify-between">
+          <span>Smile Transformations</span>
+          <span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+        </a>
+        <a href="#clinic-infrastructure" onclick="toggleMobileMenu()" class="py-2.5 text-on-surface-variant hover:text-primary transition-colors border-b border-outline-variant/20 flex items-center justify-between">
+          <span>Clinic Tour</span>
+          <span class="material-symbols-outlined text-[18px]">apartment</span>
+        </a>
+        <a href="#why-choose-us" onclick="toggleMobileMenu()" class="py-2.5 text-on-surface-variant hover:text-primary transition-colors border-b border-outline-variant/20 flex items-center justify-between">
+          <span>Why Choose Us</span>
+          <span class="material-symbols-outlined text-[18px]">verified</span>
+        </a>
+        <a href="#reviews" onclick="toggleMobileMenu()" class="py-2.5 text-on-surface-variant hover:text-primary transition-colors border-b border-outline-variant/20 flex items-center justify-between">
+          <span>Patient Reviews</span>
+          <span class="material-symbols-outlined text-[18px]">star</span>
+        </a>
+        <a href="#location" onclick="toggleMobileMenu()" class="py-2.5 text-on-surface-variant hover:text-primary transition-colors border-b border-outline-variant/20 flex items-center justify-between">
+          <span>Find Us (Location &amp; Hours)</span>
+          <span class="material-symbols-outlined text-[18px]">location_on</span>
+        </a>
+        <a href="#faq" onclick="toggleMobileMenu()" class="py-2.5 text-on-surface-variant hover:text-primary transition-colors flex items-center justify-between">
+          <span>Frequently Asked Questions</span>
+          <span class="material-symbols-outlined text-[18px]">help</span>
+        </a>
+        <div class="pt-3 flex flex-col gap-2.5">
+          <a href="tel:+919898738509" class="flex items-center justify-center gap-2 py-3 rounded-full bg-secondary-container text-primary font-semibold text-sm shadow-sm">
+            <span class="material-symbols-outlined text-[18px]">call</span>
+            <span>Call +91 98987 38509</span>
+          </a>
+          <a href="https://wa.me/919898738509?text=Hello%20Dr.%20Sneha%27s%20Dental%20Care,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 py-3 rounded-full bg-primary-container text-on-primary font-semibold text-sm shadow-md">
+            <span class="material-symbols-outlined text-[18px]">chat</span>
+            <span>WhatsApp Consultation</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER: pt adjusted to 72px on mobile, 120px on desktop -->
+  <main class="w-full pt-[72px] md:pt-[120px] bg-surface min-h-[calc(100vh-380px)]">
+    <div class="flex flex-col w-full">
+
+      <!-- SECTION 1: HERO SECTION -->
+      <section class="relative w-full overflow-hidden bg-surface py-8 sm:py-12 md:py-20 lg:py-24">
+        <!-- Ambient architectural glow accents -->
+        <div class="absolute -top-24 -left-24 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-primary-fixed/20 blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/2 -right-32 w-80 sm:w-[32rem] h-80 sm:h-[32rem] rounded-full bg-secondary-container/30 blur-3xl pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
+
+            <!-- Left: Copy & CTAs -->
+            <div class="lg:col-span-7 space-y-6 sm:space-y-8">
+              <!-- Eyebrow Badge -->
+              <div class="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-surface-container-high text-primary font-label-md text-[11px] sm:text-label-md tracking-wider uppercase max-w-full">
+                <span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim animate-pulse shrink-0"></span>
+                <span class="truncate sm:whitespace-normal">✦ Cosmetic &amp; Implant Center • 12 Years of Clinical Care</span>
+              </div>
+
+              <!-- Main Title with clamp() and no forced breaks -->
+              <div class="space-y-3 sm:space-y-4">
+                <h1 class="hero-heading font-display-lg text-primary tracking-tight">
+                  Your Smile Deserves <span class="italic font-normal text-secondary underline decoration-tertiary-fixed-dim/60 underline-offset-8">Exceptional</span> Care.
+                </h1>
+                <p class="font-body-md sm:font-body-lg text-body-md sm:text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+                  Experience gentle, personalized dentistry equipped with modern digital imaging and comfortable operatory setups at Dr. Sneha's Dental Care in Adipur, Gujarat.
+                </p>
+              </div>
+
+              <!-- Primary & Secondary CTAs -->
+              <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 pt-1 sm:pt-2">
+                <a class="inline-flex items-center justify-center gap-3 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-wider shadow-lg shadow-primary/20 hover:bg-primary transition-all duration-300 transform hover:-translate-y-0.5 text-center" href="#appointment">
+                  <span>Book Appointment</span>
+                  <span class="material-symbols-outlined text-[18px]">calendar_month</span>
+                </a>
+                <a class="inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3.5 sm:py-4 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg uppercase tracking-wider hover:bg-surface-container-high transition-all duration-300 shadow-sm border border-outline-variant/30 text-center" href="#cases">
+                  <span>Smile Transformations</span>
+                  <span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+                </a>
+                <a class="inline-flex items-center justify-center gap-2 px-5 py-3 sm:py-4 rounded-full text-secondary hover:text-primary font-label-lg text-label-lg uppercase tracking-wider transition-colors text-center" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+                  <span class="material-symbols-outlined text-[18px]">directions</span>
+                  <span>Find Us</span>
+                </a>
+              </div>
+
+              <!-- Hero Trust Bar: 2 cols on mobile, 4 on desktop -->
+              <div class="pt-5 sm:pt-6 border-t border-outline-variant/30 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 hero-trust-grid">
+                <div class="space-y-1">
+                  <div class="flex items-center gap-1 text-primary">
+                    <span class="font-title-lg text-title-lg font-bold">12+</span>
+                    <span class="font-body-sm text-body-sm text-secondary font-medium">Years</span>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Dr. Sneha's Practice in Kutch</p>
+                </div>
+                <div class="space-y-1">
+                  <div class="flex items-center gap-1 text-primary">
+                    <span class="font-title-lg text-title-lg font-bold">4.9</span>
+                    <div class="flex text-amber-500 text-[14px]">
+                      <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                      <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                      <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                      <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                      <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+                    </div>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">916+ Verified Google Reviews</p>
+                </div>
+                <div class="space-y-1">
+                  <div class="flex items-center gap-1.5 text-primary">
+                    <span class="material-symbols-outlined text-secondary text-[20px]">sanitizer</span>
+                    <span class="font-title-md text-title-md font-semibold">100%</span>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Sterilized &amp; Safe Protocols</p>
+                </div>
+                <a class="space-y-1 group block" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+                  <div class="flex items-center gap-1.5 text-primary group-hover:text-secondary transition-colors">
+                    <span class="material-symbols-outlined text-secondary text-[20px]">pin_drop</span>
+                    <span class="font-title-md text-title-md font-semibold">DAZ 9</span>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Opp. Divine Life Hospital</p>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right: Authentic Clinic Operatory Visual Showcase -->
+            <div class="lg:col-span-5 relative mt-4 lg:mt-0">
+              <div class="relative mx-auto max-w-md lg:max-w-none">
+                <!-- Main Operatory Photo Container -->
+                <div class="relative z-10 rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl bg-surface-container-lowest border-2 sm:border-4 border-surface-container-lowest">
+                  <img alt="Modern dental operatory room at Dr. Sneha's Dental Care Clinic in Adipur" class="w-full h-[320px] sm:h-[420px] lg:h-[470px] object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5nZHHmtMcojBWwffCrxhX-uOe2UVrpQVAl74EgTCWusfcwkmFOT6KG3Anjc3hue-UVJA2Z70Z8V1xLRNCKoU53rtCLWfWcb5s2Ul4UjQVCYdhYWmoqZpg4P_XcLXEJIoP2zGBNd5zLbUZB2qVj58sIc3iWZuNmSFgzZ-CfvVanQbPC76_Rv9Kz3XQugx4Q0IfjmdyO15_3mXe_X2p0jc-mApNBclKOhFvHinMBQdc12zvlzNvxMg"/>
+                  <!-- Bottom Overlaid Gradient -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-primary/85 via-primary/20 to-transparent"></div>
+                  <!-- Inset Patient Clinic Info Peek -->
+                  <div class="absolute bottom-4 sm:bottom-6 inset-x-4 sm:inset-x-6 text-on-primary">
+                    <div class="flex items-center gap-2 mb-1">
+                      <span class="material-symbols-outlined text-tertiary-fixed text-[16px] sm:text-[18px]">verified</span>
+                      <span class="font-label-md text-[11px] sm:text-label-md uppercase tracking-wider text-tertiary-fixed font-semibold">In-Clinic Operatory Setup</span>
+                    </div>
+                    <p class="font-body-sm text-[11px] sm:text-body-sm text-white/95 italic leading-relaxed">
+                      Advanced ergonomic treatment chair with wall-mounted digital X-ray diagnostics for comfortable, accurate dental care in Adipur.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Floating Storefront Badge Top Right (Desktop/Tablet) -->
+                <div class="absolute -top-6 -right-6 z-20 bg-surface-container-lowest rounded-2xl p-2.5 shadow-xl flex items-center gap-3 hidden sm:flex border border-outline-variant/20 max-w-[230px]">
+                  <img alt="Clinic Storefront at Adipur" class="w-14 h-14 rounded-xl object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHYessaCZuJz_nDYocl2Yfkl5M8LjOQV_6GCjI9ABsP0Jj8NHb969ZVp30Coak8wQU8JXwuGkai0URoI9VFjZoGBMqWp2U-9sjDWMoqbMdT4sems5MdIPmlP7HjlwL_bjrApK1Qw24V1d2Ovt-AJDUlGidSF2FkGr4nUr-IkdLNLaZDehx1o4Xq5pFdGBBtMGM-kKEGQsD_m67Ys0eZvv1sVvD-hcLsb10NvMw2oPbRG1vYuLWooQ"/>
+                  <div class="text-left">
+                    <p class="font-title-sm text-title-md text-primary font-semibold leading-tight">Clinic Entrance</p>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Shop 1, DAZ 9 Adipur</p>
+                  </div>
+                </div>
+
+                <!-- Floating Badge Bottom Left (Desktop/Tablet) -->
+                <div class="absolute -bottom-6 -left-6 z-20 bg-surface-container-lowest rounded-2xl p-4 shadow-xl flex items-center gap-3.5 hidden sm:flex border border-outline-variant/20">
+                  <div class="w-12 h-12 rounded-full bg-primary-container text-on-primary flex items-center justify-center">
+                    <span class="material-symbols-outlined text-[24px]">sentiment_satisfied</span>
+                  </div>
+                  <div>
+                    <p class="font-title-md text-title-md text-primary font-semibold">916+ Smiles</p>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant">Verified Adipur families</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: CLINIC STATS STRIP -->
+      <section class="w-full bg-surface-container-lowest py-8 sm:py-12 shadow-[0_1px_4px_rgba(0,0,0,0.03)]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-4 text-center divide-y md:divide-y-0 md:divide-x divide-outline-variant/30 stats-grid-mobile">
+            <div class="pt-3 md:pt-0 px-2 sm:px-4">
+              <p class="stats-val font-display-lg text-display-lg text-primary font-semibold tracking-tight">12+</p>
+              <p class="font-title-md text-title-md text-secondary font-semibold mt-1">Years Practice</p>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Clinical dedication in Kutch</p>
+            </div>
+            <div class="pt-3 md:pt-0 px-2 sm:px-4">
+              <p class="stats-val font-display-lg text-display-lg text-primary font-semibold tracking-tight">916+</p>
+              <p class="font-title-md text-title-md text-secondary font-semibold mt-1">Google Reviews</p>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Authentic patient stories</p>
+            </div>
+            <div class="pt-3 md:pt-0 px-2 sm:px-4">
+              <div class="flex items-center justify-center gap-1">
+                <span class="stats-val font-display-lg text-display-lg text-primary font-semibold tracking-tight">4.9</span>
+                <span class="material-symbols-outlined text-amber-500 text-[26px] sm:text-[32px]" style="font-variation-settings: 'FILL' 1;">star</span>
+              </div>
+              <p class="font-title-md text-title-md text-secondary font-semibold mt-1">Average Rating</p>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Highest rated in Adipur</p>
+            </div>
+            <div class="pt-3 md:pt-0 px-2 sm:px-4">
+              <p class="stats-val font-display-lg text-display-lg text-primary font-semibold tracking-tight">6+</p>
+              <p class="font-title-md text-title-md text-secondary font-semibold mt-1">Specialties</p>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Cosmetic &amp; Implant Care</p>
+            </div>
+            <div class="pt-3 md:pt-0 px-2 sm:px-4 col-span-2 md:col-span-1 border-t md:border-t-0">
+              <p class="stats-val font-display-lg text-display-lg text-primary font-semibold tracking-tight">10,000+</p>
+              <p class="font-title-md text-title-md text-secondary font-semibold mt-1">Smiles Restored</p>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Across Gandhidham &amp; Adipur</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: ABOUT DR. SNEHA -->
+      <section class="w-full py-12 sm:py-16 md:py-24 bg-surface" id="about">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+            <!-- Doctor Profile Card -->
+            <div class="lg:col-span-5 order-2 lg:order-1">
+              <div class="relative bg-surface-container-lowest rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-xl border border-outline-variant/30">
+                <div class="overflow-hidden rounded-xl sm:rounded-2xl mb-5 sm:mb-6 relative bg-surface-container-low">
+                  <img alt="Portrait of Dr. Sneha smiling at her consultation desk with digital portable X-ray imaging equipment at Dr. Sneha's Dental Care in Adipur" class="w-full h-[320px] sm:h-[420px] object-cover object-top" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkzAml_X5QUfNzBErrP_5EqOMm_6I7v5bfP8BmORQnlby3QIbQzTS5EXR7IxqpUeY0frdlBJq9fCozt__W6JaXQe_fhSDtph4AvFk6Pv-XrxIUKUwmQfoo9bjVXs6p5hXedg6KA2QK1QwfXjlOJ7V4wZzeaIMI3hNP66vM_qJW66IM3BxzXXbMMUxPHFhwyBe3RzixUzq-sfCoYs3wonONcfkLGefAapcx_dVNNaC06Lneo-MnEQA"/>
+                  <div class="absolute top-3 sm:top-4 right-3 sm:right-4 bg-primary text-on-primary px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full font-label-md text-[11px] sm:text-label-md tracking-wider uppercase shadow-md">
+                    Smile Specialist
+                  </div>
+                  <div class="absolute bottom-2.5 left-2.5 sm:bottom-3 sm:left-3 bg-surface-container-lowest/90 backdrop-blur-md px-2.5 py-1 rounded-lg text-[11px] sm:text-[12px] font-medium text-primary">
+                    Dr. Sneha with Handheld Digital Dental X-Ray
+                  </div>
+                </div>
+                <div class="space-y-3">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Dr. Sneha</h3>
+                      <p class="font-body-md text-body-md text-secondary font-medium">BDS • Senior Dental Surgeon &amp; Implantologist</p>
+                    </div>
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-secondary-container/60 flex items-center justify-center text-primary shrink-0">
+                      <span class="material-symbols-outlined text-[20px] sm:text-[24px]">verified_user</span>
+                    </div>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                    Dedicated to making advanced dental treatments approachable, stress-free, and meticulously customized to each individual patient with 12+ years of active clinical care in Adipur.
+                  </p>
+                  <div class="pt-2 flex flex-wrap gap-2">
+                    <span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-[11px] sm:text-label-md font-semibold">12+ Yrs Experience</span>
+                    <span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-[11px] sm:text-label-md font-semibold">Root Canal Therapy</span>
+                    <span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-[11px] sm:text-label-md font-semibold">Cosmetic Makeovers</span>
+                    <span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-[11px] sm:text-label-md font-semibold">Pediatric Dental Care</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Narrative & 4 Pillars -->
+            <div class="lg:col-span-7 space-y-6 sm:space-y-8 order-1 lg:order-2">
+              <div class="space-y-3">
+                <span class="font-label-lg text-label-lg text-secondary uppercase tracking-widest font-semibold">Meet Dr. Sneha &amp; Our Practice</span>
+                <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+                  Thoughtful Dental Care. <br class="hidden sm:inline"/>
+                  Confident, Lasting Smiles.
+                </h2>
+                <p class="font-body-md sm:font-body-lg text-body-md sm:text-body-lg text-on-surface-variant leading-relaxed pt-1 sm:pt-2">
+                  At Dr. Sneha's Dental Care Clinic, we believe visiting the dentist shouldn't evoke dread or apprehension. Situated conveniently opposite Divine Life Hospital in Adipur, our practice is designed from the ground up as a reassuring sanctuary where over a decade of clinical precision meets genuine warmth and attentive patient handling.
+                </p>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Dr. Sneha brings over 12 years of hands-on expertise in painless root canal treatments, aesthetic restorations, pediatric tooth preservation, and dental prosthetics. Every consultation includes thorough diagnostic explanations using modern handheld digital radiography, giving you complete clarity and trust.
+                </p>
+              </div>
+
+              <!-- 4 Pillars Bento Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 sm:pt-4">
+                <div class="p-4 sm:p-5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
+                  <div class="w-10 h-10 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-3">
+                    <span class="material-symbols-outlined text-[20px]">volunteer_activism</span>
+                  </div>
+                  <h4 class="font-title-md text-title-md text-primary font-semibold">Gentle Chairside Approach</h4>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">Pain-conscious, soothing protocols designed specifically to alleviate dental anxiety for children and adults alike.</p>
+                </div>
+                <div class="p-4 sm:p-5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
+                  <div class="w-10 h-10 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-3">
+                    <span class="material-symbols-outlined text-[20px]">medical_services</span>
+                  </div>
+                  <h4 class="font-title-md text-title-md text-primary font-semibold">Sterilized &amp; Safe</h4>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">Rigorous multi-stage autoclave sterilization protocols safeguarding hygiene across every instrument and operatory surface.</p>
+                </div>
+                <div class="p-4 sm:p-5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
+                  <div class="w-10 h-10 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-3">
+                    <span class="material-symbols-outlined text-[20px]">visibility</span>
+                  </div>
+                  <h4 class="font-title-md text-title-md text-primary font-semibold">Transparent Treatment Plans</h4>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">Honest, evidence-based recommendations with no unnecessary procedures or surprises. We treat what you genuinely need.</p>
+                </div>
+                <div class="p-4 sm:p-5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow border border-outline-variant/20">
+                  <div class="w-10 h-10 rounded-xl bg-secondary-container text-primary flex items-center justify-center mb-3">
+                    <span class="material-symbols-outlined text-[20px]">precision_manufacturing</span>
+                  </div>
+                  <h4 class="font-title-md text-title-md text-primary font-semibold">Modern Digital Imaging</h4>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">Portable digital radiography, motorized ergonomic chair, and rotary endodontics ensuring treatment precision and faster comfort.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: SMILE TRANSFORMATIONS (BEFORE & AFTER) -->
+      <section class="w-full py-12 sm:py-16 md:py-24 bg-surface-container-lowest border-y border-outline-variant/20" id="cases">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="text-center max-w-3xl mx-auto space-y-3 sm:space-y-4 mb-10 sm:mb-16">
+            <div class="inline-flex items-center gap-2 px-3 py-1 sm:px-4 sm:py-1.5 rounded-full bg-secondary-container/70 text-primary font-label-md text-label-md tracking-wider uppercase font-semibold">
+              <span class="material-symbols-outlined text-[16px]">auto_awesome</span>
+              <span>Verified Clinical Results</span>
+            </div>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Real Smile Transformations</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Explore actual patient outcomes documented at Dr. Sneha's Dental Care Clinic. Every treatment reflects clinical dignity, restorative precision, and individualized cosmetic care.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            <!-- Case 1 -->
+            <div class="bg-surface rounded-2xl sm:rounded-3xl overflow-hidden border border-outline-variant/30 shadow-md flex flex-col justify-between hover:shadow-xl transition-all duration-300">
+              <div>
+                <div class="relative bg-surface-container-high overflow-hidden">
+                  <img alt="Before and After Smile Makeover for adult male showing orthodontic tooth realignment" class="w-full h-[280px] sm:h-[360px] object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhp1MNUdCWJG8OsNvpzRGKjoqXZpkQUCfz5caAtN5GXwpxUBhElrcmHdb-zTkQTX3O4tP9js4M_htY1XrJddoO8fnnmirBffvcN16vUMhVjbAkYRZl9jQ-SBlckl0DJ1RnVPIjmljaHPxPxNX583e2lDqae86vzJ2Y0X0rHjPJEnjqpQ6zlWZhzPw8KrffXVzIXXiJ5DUZlIGVjTHyXKbOxVrBgksOPBG0ITpWG8xrKW2GlgJLT8A"/>
+                  <div class="absolute top-3 left-3 sm:top-4 sm:left-4 bg-primary/90 backdrop-blur-sm text-on-primary text-[10px] sm:text-[11px] font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                    Before &amp; After
+                  </div>
+                  <div class="absolute bottom-2.5 inset-x-2.5 sm:bottom-3 sm:inset-x-3 flex justify-between gap-1.5 sm:gap-2 text-center text-[10px] sm:text-[11px] font-bold text-white">
+                    <span class="bg-black/60 backdrop-blur-sm px-2 py-1 rounded-lg flex-1 truncate">Before: Crowded &amp; Worn</span>
+                    <span class="bg-primary/80 backdrop-blur-sm px-2 py-1 rounded-lg flex-1 truncate">After: Realignment</span>
+                  </div>
+                </div>
+                <div class="p-5 sm:p-6 space-y-2.5 sm:space-y-3">
+                  <div class="flex items-center justify-between gap-2">
+                    <span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Adult Smile Makeover</span>
+                    <span class="font-label-md text-label-md px-2 py-0.5 rounded-full bg-secondary-container text-primary font-medium shrink-0">Cosmetic</span>
+                  </div>
+                  <h3 class="font-title-lg text-title-lg text-primary font-semibold">Anterior Crowding &amp; Aesthetic Restoration</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                    Patient presented with uneven front teeth crowding, wear, and bite asymmetry. Dr. Sneha performed systematic restorative alignment and contouring to produce a confident, harmonious smile line.
+                  </p>
+                </div>
+              </div>
+              <div class="px-5 sm:px-6 pb-5 sm:pb-6 pt-2 border-t border-outline-variant/20 flex items-center justify-between">
+                <span class="font-body-sm text-body-sm text-secondary font-medium">Result: Full Functional Smile</span>
+                <a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary font-semibold hover:text-secondary" href="#appointment">Enquire Case →</a>
+              </div>
+            </div>
+
+            <!-- Case 2 -->
+            <div class="bg-surface rounded-2xl sm:rounded-3xl overflow-hidden border border-outline-variant/30 shadow-md flex flex-col justify-between hover:shadow-xl transition-all duration-300">
+              <div>
+                <div class="relative bg-surface-container-high overflow-hidden">
+                  <img alt="Before and After Full Arch Cosmetic Rehabilitation for female patient" class="w-full h-[280px] sm:h-[360px] object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjm3TT7M9d1apRf_fJvsBHSlWS3_EoRMZEnnxjul6hCitzxRc2oMJRo98SIGF7DNGUl7ToCoojaYVYnCngSJwhOR0u1GLRlnbXsxYH77KoOpP5t7OFCIFrC-ZXroziAifjllCLxXyvTCFBy1k4m6QlutuJwkDSCSQ2XRUWGKguDIp-2ahkWYuaBKY00COWD6_zdVoYxB7F3ignn0RtIMX8aX_QQvVxLJeIv0gzvthv18zmtKCU3HA"/>
+                  <div class="absolute top-3 left-3 sm:top-4 sm:left-4 bg-primary/90 backdrop-blur-sm text-on-primary text-[10px] sm:text-[11px] font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                    Before &amp; After
+                  </div>
+                  <div class="absolute bottom-2.5 inset-x-2.5 sm:bottom-3 sm:inset-x-3 flex justify-between gap-1.5 sm:gap-2 text-center text-[10px] sm:text-[11px] font-bold text-white">
+                    <span class="bg-black/60 backdrop-blur-sm px-2 py-1 rounded-lg flex-1 truncate">Before: Broken Teeth</span>
+                    <span class="bg-primary/80 backdrop-blur-sm px-2 py-1 rounded-lg flex-1 truncate">After: Custom Prosthetics</span>
+                  </div>
+                </div>
+                <div class="p-5 sm:p-6 space-y-2.5 sm:space-y-3">
+                  <div class="flex items-center justify-between gap-2">
+                    <span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Crowns &amp; Bridge Restorative</span>
+                    <span class="font-label-md text-label-md px-2 py-0.5 rounded-full bg-secondary-container text-primary font-medium shrink-0">Full Arch</span>
+                  </div>
+                  <h3 class="font-title-lg text-title-lg text-primary font-semibold">Severe Enamel Loss &amp; Fixed Bridge Solution</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                    Patient arrived with severely decayed and compromised anterior teeth affecting chewing and self-esteem. Dr. Sneha completed full therapeutic clearance followed by custom, natural-shade fixed dental prosthetics.
+                  </p>
+                </div>
+              </div>
+              <div class="px-5 sm:px-6 pb-5 sm:pb-6 pt-2 border-t border-outline-variant/20 flex items-center justify-between">
+                <span class="font-body-sm text-body-sm text-secondary font-medium">Result: Complete Smile Restored</span>
+                <a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary font-semibold hover:text-secondary" href="#appointment">Enquire Case →</a>
+              </div>
+            </div>
+
+            <!-- Case 3 -->
+            <div class="bg-surface rounded-2xl sm:rounded-3xl overflow-hidden border border-outline-variant/30 shadow-md flex flex-col justify-between hover:shadow-xl transition-all duration-300">
+              <div>
+                <div class="relative bg-surface-container-high overflow-hidden">
+                  <img alt="Pediatric dental treatment showing Dr. Sneha providing gentle care to a young child" class="w-full h-[280px] sm:h-[360px] object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7GUCpNtZX7VflOMUfMxcoBU0FGOALdfBvz9jlJ1U3KPU5MQC-Lv87xT-2s_MaiJkf-T3ebh-7SN-mGFu-qJ3lcckqCIbNQ3XZF743G1eHzMAXrK3h28qw0CL8325jTPF_MXEI3lPmpsD2dRAl5yaIF1UdictOlSh_h-phcw4OJa0sf9vH1iBTCh4DqpgpXrFE12ocFOYgh6KiT0d_jLSBoD0vrIvLiw4xbvGFV4dJUmDQTItIxL8"/>
+                  <div class="absolute top-3 left-3 sm:top-4 sm:left-4 bg-tertiary-container/90 backdrop-blur-sm text-on-primary text-[10px] sm:text-[11px] font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                    Pediatric Excellence
+                  </div>
+                  <div class="absolute bottom-2.5 inset-x-2.5 sm:bottom-3 sm:inset-x-3 flex justify-between gap-1.5 sm:gap-2 text-center text-[10px] sm:text-[11px] font-bold text-white">
+                    <span class="bg-black/60 backdrop-blur-sm px-2 py-1 rounded-lg flex-1 truncate">Early Childhood Caries</span>
+                    <span class="bg-primary/80 backdrop-blur-sm px-2 py-1 rounded-lg flex-1 truncate">Gentle Care</span>
+                  </div>
+                </div>
+                <div class="p-5 sm:p-6 space-y-2.5 sm:space-y-3">
+                  <div class="flex items-center justify-between gap-2">
+                    <span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Gentle Pediatric Dentistry</span>
+                    <span class="font-label-md text-label-md px-2 py-0.5 rounded-full bg-secondary-container text-primary font-medium shrink-0">Child-Friendly</span>
+                  </div>
+                  <h3 class="font-title-lg text-title-lg text-primary font-semibold">Early Childhood Tooth Decay &amp; Anxiety-Free Care</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                    Dr. Sneha's gentle, calm chairside demeanor ensures children undergo treatment for rampant bottle caries and baby tooth infections without fear or trauma, protecting developing adult dentition.
+                  </p>
+                </div>
+              </div>
+              <div class="px-5 sm:px-6 pb-5 sm:pb-6 pt-2 border-t border-outline-variant/20 flex items-center justify-between">
+                <span class="font-body-sm text-body-sm text-secondary font-medium">Result: Happy Young Patients</span>
+                <a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary font-semibold hover:text-secondary" href="#appointment">Enquire Case →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Medical Ethics Note -->
+          <div class="mt-8 sm:mt-10 p-4 sm:p-5 rounded-2xl bg-surface-container-high/60 flex items-center justify-between flex-wrap gap-3 sm:gap-4 max-w-4xl mx-auto">
+            <div class="flex items-center gap-3">
+              <span class="material-symbols-outlined text-secondary text-[22px] sm:text-[24px] shrink-0">verified</span>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">
+                Patient clinical photography published with strict clinical dignity and patient consent for medical educational transparency. Individual clinical results may vary depending on patient oral anatomy.
+              </p>
+            </div>
+            <a class="inline-flex items-center gap-1 text-primary font-label-md text-label-md uppercase font-semibold hover:underline shrink-0" href="#appointment">Discuss Your Smile Plan →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: CLINIC INFRASTRUCTURE -->
+      <section class="w-full py-12 sm:py-16 md:py-24 bg-surface" id="clinic-infrastructure">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div class="lg:col-span-5 space-y-5 sm:space-y-6">
+              <span class="font-label-lg text-label-lg text-secondary uppercase tracking-widest font-semibold">Inside Our Clinic</span>
+              <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+                Clean, Hygienic &amp; Ergonomically Equipped
+              </h2>
+              <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Our clinic at Shop No. 1, DAZ 9 in Adipur is thoughtfully structured to prioritize patient hygiene, calm surroundings, and state-of-the-art diagnostic convenience.
+              </p>
+              <div class="space-y-3 sm:space-y-4 pt-1 sm:pt-2">
+                <div class="flex items-start gap-3 sm:gap-4 p-3.5 sm:p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/20 shadow-sm">
+                  <div class="w-10 h-10 rounded-xl bg-secondary-container text-primary flex items-center justify-center shrink-0">
+                    <span class="material-symbols-outlined text-[20px]">airline_seat_recline_extra</span>
+                  </div>
+                  <div>
+                    <h4 class="font-title-md text-title-md font-semibold text-primary">Advanced Ergonomic Operatory Chair</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Fully motorized, cushioned dental chair designed to maintain spine comfort during both brief checkups and extensive root canal sessions.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3 sm:gap-4 p-3.5 sm:p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/20 shadow-sm">
+                  <div class="w-10 h-10 rounded-xl bg-secondary-container text-primary flex items-center justify-center shrink-0">
+                    <span class="material-symbols-outlined text-[20px]">photo_camera</span>
+                  </div>
+                  <div>
+                    <h4 class="font-title-md text-title-md font-semibold text-primary">Chairside Portable Digital X-Ray</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Low-radiation digital sensor technology enables instant chairside tooth diagnosis without making patients wait or commute.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3 sm:gap-4 p-3.5 sm:p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/20 shadow-sm">
+                  <div class="w-10 h-10 rounded-xl bg-secondary-container text-primary flex items-center justify-center shrink-0">
+                    <span class="material-symbols-outlined text-[20px]">family_restroom</span>
+                  </div>
+                  <div>
+                    <h4 class="font-title-md text-title-md font-semibold text-primary">Welcoming for Children &amp; Seniors</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Ground-floor step-free access opposite Divine Life Hospital ensures effortless entry for elderly patients and families.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-2">
+                <a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:bg-primary transition-all duration-300 shadow-md text-center" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+                  <span class="material-symbols-outlined text-[18px]">pin_drop</span>
+                  <span>View Verified Clinic on Google Maps</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Photo Bento Collage -->
+            <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div class="space-y-4">
+                <div class="rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border border-outline-variant/30 group">
+                  <img alt="Operatory Dental Treatment Room at Dr Sneha Dental Care Clinic Adipur" class="w-full h-48 sm:h-64 object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5nZHHmtMcojBWwffCrxhX-uOe2UVrpQVAl74EgTCWusfcwkmFOT6KG3Anjc3hue-UVJA2Z70Z8V1xLRNCKoU53rtCLWfWcb5s2Ul4UjQVCYdhYWmoqZpg4P_XcLXEJIoP2zGBNd5zLbUZB2qVj58sIc3iWZuNmSFgzZ-CfvVanQbPC76_Rv9Kz3XQugx4Q0IfjmdyO15_3mXe_X2p0jc-mApNBclKOhFvHinMBQdc12zvlzNvxMg"/>
+                  <div class="p-4 bg-surface-container-lowest">
+                    <p class="font-title-sm text-title-md font-semibold text-primary">Operatory Dental Suite</p>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant">Sterilized operatory with X-ray unit</p>
+                  </div>
+                </div>
+                <div class="rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border border-outline-variant/30 group">
+                  <img alt="Pediatric Dental Care at Dr. Sneha's Dental Care Clinic" class="w-full h-48 sm:h-56 object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7GUCpNtZX7VflOMUfMxcoBU0FGOALdfBvz9jlJ1U3KPU5MQC-Lv87xT-2s_MaiJkf-T3ebh-7SN-mGFu-qJ3lcckqCIbNQ3XZF743G1eHzMAXrK3h28qw0CL8325jTPF_MXEI3lPmpsD2dRAl5yaIF1UdictOlSh_h-phcw4OJa0sf9vH1iBTCh4DqpgpXrFE12ocFOYgh6KiT0d_jLSBoD0vrIvLiw4xbvGFV4dJUmDQTItIxL8"/>
+                  <div class="p-4 bg-surface-container-lowest">
+                    <p class="font-title-sm text-title-md font-semibold text-primary">Gentle Pediatric Care</p>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant">Dr. Sneha with young dental patients</p>
+                  </div>
+                </div>
+              </div>
+              <div class="space-y-4 sm:pt-6">
+                <div class="rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border border-outline-variant/30 group">
+                  <img alt="Dr. Sneha at the consultation table with diagnostic equipment" class="w-full h-48 sm:h-56 object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkzAml_X5QUfNzBErrP_5EqOMm_6I7v5bfP8BmORQnlby3QIbQzTS5EXR7IxqpUeY0frdlBJq9fCozt__W6JaXQe_fhSDtph4AvFk6Pv-XrxIUKUwmQfoo9bjVXs6p5hXedg6KA2QK1QwfXjlOJ7V4wZzeaIMI3hNP66vM_qJW66IM3BxzXXbMMUxPHFhwyBe3RzixUzq-sfCoYs3wonONcfkLGefAapcx_dVNNaC06Lneo-MnEQA"/>
+                  <div class="p-4 bg-surface-container-lowest">
+                    <p class="font-title-sm text-title-md font-semibold text-primary">Consultation &amp; Diagnostics</p>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant">Warm, transparent chairside explanations</p>
+                  </div>
+                </div>
+                <div class="rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border border-outline-variant/30 group">
+                  <img alt="Clinic Storefront at DAZ 9 Opposite Divine Life Hospital Adipur" class="w-full h-48 sm:h-64 object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHYessaCZuJz_nDYocl2Yfkl5M8LjOQV_6GCjI9ABsP0Jj8NHb969ZVp30Coak8wQU8JXwuGkai0URoI9VFjZoGBMqWp2U-9sjDWMoqbMdT4sems5MdIPmlP7HjlwL_bjrApK1Qw24V1d2Ovt-AJDUlGidSF2FkGr4nUr-IkdLNLaZDehx1o4Xq5pFdGBBtMGM-kKEGQsD_m67Ys0eZvv1sVvD-hcLsb10NvMw2oPbRG1vYuLWooQ"/>
+                  <div class="p-4 bg-surface-container-lowest">
+                    <p class="font-title-sm text-title-md font-semibold text-primary">Adipur Clinic Storefront</p>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant">Shop 1, DAZ 9, Opp Divine Life Hospital</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: DENTAL TREATMENTS -->
+      <section class="w-full py-12 sm:py-16 md:py-24 bg-surface-container-low" id="treatments">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="text-center max-w-2xl mx-auto space-y-3 sm:space-y-4 mb-10 sm:mb-16">
+            <span class="font-label-lg text-label-lg text-secondary uppercase tracking-widest font-semibold">Specialized Dentistry</span>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Our Dental Treatments</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              From acute pain relief to complete smile transformations, we deliver meticulous clinical care tailored to your precise anatomy.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
+            <!-- Treatment 1: RCT -->
+            <div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center shadow-md">
+                    <span class="material-symbols-outlined text-[24px] sm:text-[28px]">health_and_safety</span>
+                  </div>
+                  <span class="font-label-md text-label-md px-3 py-1 rounded-full bg-secondary-container text-primary font-semibold">Tooth Preservation</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Root Canal Treatment (RCT)</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Gentle endodontic therapy designed to relieve acute toothache, eliminate bacterial infection, and preserve your natural tooth root using precision rotary instruments.
+                </p>
+              </div>
+              <div class="pt-5 sm:pt-6 mt-5 sm:mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-body-sm text-body-sm text-secondary font-medium">Single/Multi-Sitting Available</span>
+                <a class="inline-flex items-center gap-1.5 font-label-lg text-label-lg text-primary hover:text-secondary font-semibold transition-colors" href="#appointment">
+                  <span>Enquire</span>
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Treatment 2: Tooth Extraction -->
+            <div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center shadow-md">
+                    <span class="material-symbols-outlined text-[24px] sm:text-[28px]">healing</span>
+                  </div>
+                  <span class="font-label-md text-label-md px-3 py-1 rounded-full bg-secondary-container text-primary font-semibold">Surgical Care</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Tooth Extraction</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Safe, gentle removal of severely compromised, broken, or impacted teeth (including wisdom teeth) performed with careful local anesthesia and detailed post-operative guidance.
+                </p>
+              </div>
+              <div class="pt-5 sm:pt-6 mt-5 sm:mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-body-sm text-body-sm text-secondary font-medium">Wisdom &amp; Routine Removal</span>
+                <a class="inline-flex items-center gap-1.5 font-label-lg text-label-lg text-primary hover:text-secondary font-semibold transition-colors" href="#appointment">
+                  <span>Enquire</span>
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Treatment 3: Dental Implants -->
+            <div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center shadow-md">
+                    <span class="material-symbols-outlined text-[24px] sm:text-[28px]">dentistry</span>
+                  </div>
+                  <span class="font-label-md text-label-md px-3 py-1 rounded-full bg-secondary-container text-primary font-semibold">Permanent Solution</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Dental Implants</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Permanent, highly durable titanium tooth replacement fixtures anchored firmly into the jawbone, restoring full chewing strength, bone stability, and natural visual aesthetics.
+                </p>
+              </div>
+              <div class="pt-5 sm:pt-6 mt-5 sm:mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-body-sm text-body-sm text-secondary font-medium">Titanium Medical Grade</span>
+                <a class="inline-flex items-center gap-1.5 font-label-lg text-label-lg text-primary hover:text-secondary font-semibold transition-colors" href="#appointment">
+                  <span>Enquire</span>
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Treatment 4: Crowns & Bridges -->
+            <div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center shadow-md">
+                    <span class="material-symbols-outlined text-[24px] sm:text-[28px]">link</span>
+                  </div>
+                  <span class="font-label-md text-label-md px-3 py-1 rounded-full bg-secondary-container text-primary font-semibold">Prosthodontics</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Dental Bridges &amp; Crowns</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Custom-crafted, seamless fixed dental prosthetics designed to bridge the gap created by one or more missing teeth, reinforcing neighboring tooth structure and natural bite alignment.
+                </p>
+              </div>
+              <div class="pt-5 sm:pt-6 mt-5 sm:mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-body-sm text-body-sm text-secondary font-medium">Zirconia &amp; Ceramic Crowns</span>
+                <a class="inline-flex items-center gap-1.5 font-label-lg text-label-lg text-primary hover:text-secondary font-semibold transition-colors" href="#appointment">
+                  <span>Enquire</span>
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Treatment 5: Orthodontics -->
+            <div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center shadow-md">
+                    <span class="material-symbols-outlined text-[24px] sm:text-[28px]">align_horizontal_center</span>
+                  </div>
+                  <span class="font-label-md text-label-md px-3 py-1 rounded-full bg-secondary-container text-primary font-semibold">Teeth Alignment</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Orthodontic Treatment</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Systematic teeth straightening and bite correction for teens and adults to correct crowding, crossbites, and spacing, ensuring long-term periodontal health and facial harmony.
+                </p>
+              </div>
+              <div class="pt-5 sm:pt-6 mt-5 sm:mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-body-sm text-body-sm text-secondary font-medium">Braces &amp; Clear Solutions</span>
+                <a class="inline-flex items-center gap-1.5 font-label-lg text-label-lg text-primary hover:text-secondary font-semibold transition-colors" href="#appointment">
+                  <span>Enquire</span>
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Treatment 6: Smile Designing -->
+            <div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center shadow-md">
+                    <span class="material-symbols-outlined text-[24px] sm:text-[28px]">mood</span>
+                  </div>
+                  <span class="font-label-md text-label-md px-3 py-1 rounded-full bg-secondary-container text-primary font-semibold">Cosmetic Aesthetics</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Smile Designing</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Comprehensive aesthetic smile makeovers combining professional teeth whitening, enamel contouring, composite bonding, and ceramic veneers tailored to your facial profile.
+                </p>
+              </div>
+              <div class="pt-5 sm:pt-6 mt-5 sm:mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+                <span class="font-body-sm text-body-sm text-secondary font-medium">Bespoke Cosmetic Dentistry</span>
+                <a class="inline-flex items-center gap-1.5 font-label-lg text-label-lg text-primary hover:text-secondary font-semibold transition-colors" href="#appointment">
+                  <span>Enquire</span>
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Medical Protocol Notice -->
+          <div class="mt-8 sm:mt-12 p-4 sm:p-6 rounded-2xl bg-surface-container-highest/60 flex items-start gap-3 sm:gap-4 max-w-4xl mx-auto">
+            <span class="material-symbols-outlined text-secondary text-[22px] sm:text-[24px] shrink-0 mt-0.5">info</span>
+            <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              <strong class="font-semibold text-primary">Clinical Transparency Notice:</strong> Every smile is unique. Treatment duration, candidacy, and procedure steps are formulated following an in-person clinical examination and diagnostic assessment. We never make unrealistic or absolute "zero-pain" marketing claims—only compassionate, well-managed care.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: WHY CHOOSE US -->
+      <section class="w-full py-12 sm:py-16 md:py-24 bg-surface" id="why-choose-us">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div class="lg:col-span-5 space-y-5 sm:space-y-6">
+              <span class="font-label-lg text-label-lg text-secondary uppercase tracking-widest font-semibold">The Sneha's Dental Care Advantage</span>
+              <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+                Why Discerning Patients Choose Us in Adipur
+              </h2>
+              <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                We focus on creating an environment where patients of all ages feel respected, thoroughly heard, and completely supported from their initial diagnostic consultation through post-treatment checkups.
+              </p>
+              <div class="p-5 sm:p-6 rounded-2xl bg-secondary-container/40 space-y-2">
+                <div class="flex items-center gap-2 text-primary font-title-md text-title-md font-semibold">
+                  <span class="material-symbols-outlined text-primary text-[22px]">star</span>
+                  <span>Consistent 4.9 Star Rating</span>
+                </div>
+                <p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Backed by over 916 authentic reviews from local families across Adipur, Gandhidham, Anjar, and the broader Kutch region.
+                </p>
+              </div>
+            </div>
+            <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+              <div class="p-5 sm:p-6 rounded-2xl bg-surface-container-lowest shadow-sm space-y-3">
+                <div class="w-10 h-10 rounded-full bg-secondary-container text-primary flex items-center justify-center font-bold font-title-md text-title-md">
+                  01
+                </div>
+                <h4 class="font-title-lg text-title-lg text-primary font-semibold">12 Years Clinical Mastery</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Dr. Sneha brings deep diagnostic acumen and practical precision cultivated over a decade of continuous service in Adipur.
+                </p>
+              </div>
+              <div class="p-5 sm:p-6 rounded-2xl bg-surface-container-lowest shadow-sm space-y-3">
+                <div class="w-10 h-10 rounded-full bg-secondary-container text-primary flex items-center justify-center font-bold font-title-md text-title-md">
+                  02
+                </div>
+                <h4 class="font-title-lg text-title-lg text-primary font-semibold">Gentle Chairside Protocol</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  An unhurried, gentle approach that prioritizes comfort, clear anesthetic numbing, and calm patient reassurance.
+                </p>
+              </div>
+              <div class="p-5 sm:p-6 rounded-2xl bg-surface-container-lowest shadow-sm space-y-3">
+                <div class="w-10 h-10 rounded-full bg-secondary-container text-primary flex items-center justify-center font-bold font-title-md text-title-md">
+                  03
+                </div>
+                <h4 class="font-title-lg text-title-lg text-primary font-semibold">Full Spectrum Care</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  From root canals and surgical extractions to implants, bridges, and pediatric care—all delivered under one trusted roof.
+                </p>
+              </div>
+              <a class="p-5 sm:p-6 rounded-2xl bg-surface-container-lowest shadow-sm space-y-3 block group hover:shadow-md transition-shadow" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+                <div class="w-10 h-10 rounded-full bg-secondary-container text-primary flex items-center justify-center font-bold font-title-md text-title-md group-hover:bg-primary group-hover:text-white transition-colors">
+                  04
+                </div>
+                <h4 class="font-title-lg text-title-lg text-primary font-semibold group-hover:text-secondary transition-colors">Central Accessible Location</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Directly opposite Divine Life Hospital at DAZ 9 in Adipur, with ample street parking and easy ground-floor access.
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 8: PATIENT REVIEWS -->
+      <section class="w-full py-12 sm:py-16 md:py-24 bg-surface-container-lowest" id="reviews">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <!-- Review Header -->
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 sm:mb-16">
+            <div class="space-y-3 max-w-xl">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container/70 text-primary font-label-md text-label-md font-semibold">
+                <span class="material-symbols-outlined text-[16px] text-amber-500" style="font-variation-settings: 'FILL' 1;">star</span>
+                <span>Google Rating: 4.9 • 916 Reviews</span>
+              </div>
+              <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Real Patient Experiences</h2>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Read unedited feedback shared by patients who trust Dr. Sneha's Dental Care with their smiles.
+              </p>
+            </div>
+            <a class="inline-flex items-center gap-2.5 px-5 sm:px-6 py-3 rounded-full bg-surface-container-high text-primary font-label-lg text-label-lg hover:bg-secondary-container transition-colors shrink-0 self-start md:self-auto" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+              <svg class="w-4 h-4 shrink-0" viewbox="0 0 24 24">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"></path>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"></path>
+              </svg>
+              <span>View All 916 Reviews</span>
+              <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+            </a>
+          </div>
+          <!-- Review Cards -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+            <!-- Review 1 -->
+            <div class="bg-surface-container-low rounded-2xl p-5 sm:p-6 flex flex-col justify-between space-y-4">
+              <div class="space-y-3">
+                <div class="flex text-amber-500">
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+                  “Excellent service and best atmosphere. Thank you, ma'am and all staff.”
+                </p>
+              </div>
+              <div class="flex items-center gap-3 pt-3 border-t border-outline-variant/30">
+                <div class="w-9 h-9 rounded-full bg-primary-container text-on-primary font-bold flex items-center justify-center font-label-md text-label-md shrink-0">
+                  P
+                </div>
+                <div>
+                  <p class="font-title-sm text-title-md font-semibold text-primary">Verified Patient</p>
+                  <p class="font-body-sm text-body-sm text-secondary">Google Review</p>
+                </div>
+              </div>
+            </div>
+            <!-- Review 2 -->
+            <div class="bg-surface-container-low rounded-2xl p-5 sm:p-6 flex flex-col justify-between space-y-4">
+              <div class="space-y-3">
+                <div class="flex text-amber-500">
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+                  “Best experience in root canal treatment.”
+                </p>
+              </div>
+              <div class="flex items-center gap-3 pt-3 border-t border-outline-variant/30">
+                <div class="w-9 h-9 rounded-full bg-secondary-container text-primary font-bold flex items-center justify-center font-label-md text-label-md shrink-0">
+                  R
+                </div>
+                <div>
+                  <p class="font-title-sm text-title-md font-semibold text-primary">Verified Patient</p>
+                  <p class="font-body-sm text-body-sm text-secondary">Google Review</p>
+                </div>
+              </div>
+            </div>
+            <!-- Review 3 -->
+            <div class="bg-surface-container-low rounded-2xl p-5 sm:p-6 flex flex-col justify-between space-y-4">
+              <div class="space-y-3">
+                <div class="flex text-amber-500">
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+                  “Doctor behaviour is very good and well treated.”
+                </p>
+              </div>
+              <div class="flex items-center gap-3 pt-3 border-t border-outline-variant/30">
+                <div class="w-9 h-9 rounded-full bg-tertiary-container text-on-tertiary-container font-bold flex items-center justify-center font-label-md text-label-md shrink-0">
+                  S
+                </div>
+                <div>
+                  <p class="font-title-sm text-title-md font-semibold text-primary">Verified Patient</p>
+                  <p class="font-body-sm text-body-sm text-secondary">Google Review</p>
+                </div>
+              </div>
+            </div>
+            <!-- Review 4 -->
+            <div class="bg-surface-container-low rounded-2xl p-5 sm:p-6 flex flex-col justify-between space-y-4">
+              <div class="space-y-3">
+                <div class="flex text-amber-500">
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+                  “Very gentle touch and very neat clinic. Felt completely at ease throughout the procedure.”
+                </p>
+              </div>
+              <div class="flex items-center gap-3 pt-3 border-t border-outline-variant/30">
+                <div class="w-9 h-9 rounded-full bg-primary-fixed text-primary font-bold flex items-center justify-center font-label-md text-label-md shrink-0">
+                  A
+                </div>
+                <div>
+                  <p class="font-title-sm text-title-md font-semibold text-primary">Local Guide Review</p>
+                  <p class="font-body-sm text-body-sm text-secondary">Google Verified</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 9: APPOINTMENT SECTION -->
+      <section class="w-full py-12 sm:py-16 md:py-24 bg-surface scroll-mt-20 md:scroll-mt-24" id="appointment">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="bg-primary text-on-primary rounded-2xl sm:rounded-3xl p-6 sm:p-12 lg:p-16 relative overflow-hidden shadow-2xl">
+            <!-- Background organic shapes -->
+            <div class="absolute -right-24 -bottom-24 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-primary-container/40 blur-3xl pointer-events-none"></div>
+            <div class="absolute -left-20 -top-20 w-64 sm:w-80 h-64 sm:h-80 rounded-full bg-secondary/30 blur-2xl pointer-events-none"></div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 relative z-10">
+
+              <!-- Left: Direct Booking Channels -->
+              <div class="lg:col-span-5 space-y-5 sm:space-y-6">
+                <span class="font-label-lg text-label-lg text-tertiary-fixed uppercase tracking-widest font-semibold">Priority Booking</span>
+                <h2 class="font-headline-lg text-headline-lg text-on-primary tracking-tight">
+                  Let's Take Care of Your Smile.
+                </h2>
+                <p class="font-body-md text-body-md text-surface-container-highest leading-relaxed">
+                  Get in touch with our clinic to enquire about appointments and dental consultations in Adipur. We are ready to assist you.
+                </p>
+
+                <div class="space-y-3 pt-2 sm:pt-4">
+                  <a class="flex items-center justify-between p-3.5 sm:p-4 rounded-2xl bg-tertiary-container hover:bg-tertiary text-on-primary transition-all duration-300" href="https://wa.me/919898738509?text=Hello%20Dr.%20Sneha%27s%20Dental%20Care,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." rel="noopener noreferrer" target="_blank">
+                    <div class="flex items-center gap-3 sm:gap-3.5 min-w-0">
+                      <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+                        <span class="material-symbols-outlined text-[20px] text-tertiary-fixed">chat</span>
+                      </div>
+                      <div class="text-left min-w-0">
+                        <p class="font-title-md text-title-md font-semibold truncate">Chat via WhatsApp</p>
+                        <p class="font-body-sm text-body-sm text-surface-container-highest truncate">Instant clinic consultation (+91 98987 38509)</p>
+                      </div>
+                    </div>
+                    <span class="material-symbols-outlined text-[20px] shrink-0">arrow_forward</span>
+                  </a>
+
+                  <a class="flex items-center justify-between p-3.5 sm:p-4 rounded-2xl bg-white/10 hover:bg-white/20 text-on-primary transition-all duration-300" href="tel:+919898738509">
+                    <div class="flex items-center gap-3 sm:gap-3.5 min-w-0">
+                      <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+                        <span class="material-symbols-outlined text-[20px] text-tertiary-fixed">call</span>
+                      </div>
+                      <div class="text-left min-w-0">
+                        <p class="font-title-md text-title-md font-semibold truncate">Direct Call: +91 98987 38509</p>
+                        <p class="font-body-sm text-body-sm text-surface-container-highest truncate">Mon – Sat: Clinic Hours</p>
+                      </div>
+                    </div>
+                    <span class="material-symbols-outlined text-[20px] shrink-0">arrow_forward</span>
+                  </a>
+
+                  <a class="flex items-center justify-between p-3.5 sm:p-4 rounded-2xl bg-white/5 hover:bg-white/10 text-on-primary transition-all duration-300 border border-white/10" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+                    <div class="flex items-center gap-3 sm:gap-3.5 min-w-0">
+                      <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+                        <span class="material-symbols-outlined text-[20px] text-tertiary-fixed">location_on</span>
+                      </div>
+                      <div class="text-left min-w-0">
+                        <p class="font-title-md text-title-md font-semibold truncate">Opposite Divine Life Hospital</p>
+                        <p class="font-body-sm text-body-sm text-surface-container-highest truncate">DAZ 9, Adipur, Gujarat 370205</p>
+                      </div>
+                    </div>
+                    <span class="material-symbols-outlined text-[20px] shrink-0">directions</span>
+                  </a>
+                </div>
+
+                <div class="pt-3 sm:pt-4 flex items-center gap-2.5 sm:gap-3 text-surface-container-highest text-body-sm font-body-sm">
+                  <span class="material-symbols-outlined text-tertiary-fixed text-[18px] shrink-0">schedule</span>
+                  <span>Morning: 9:30 AM – 1:30 PM • Evening: 4:30 PM – 8:30 PM</span>
+                </div>
+              </div>
+
+              <!-- Right: Interactive Consultation Form -->
+              <div class="lg:col-span-7 bg-surface-container-lowest text-on-surface rounded-2xl p-5 sm:p-8 shadow-xl">
+                <h3 class="font-headline-sm text-headline-sm text-primary font-semibold mb-1 sm:mb-2">Request an Appointment</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mb-5 sm:mb-6">
+                  Complete this short form to dispatch a formatted booking message directly to our clinic staff.
+                </p>
+                <form class="space-y-4" id="appointment-form" onsubmit="handleAppointmentSubmit(event)">
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="space-y-1.5">
+                      <label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold" for="patient-name">Your Full Name *</label>
+                      <input class="w-full h-11 sm:h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-white focus:outline-none focus:ring-2 focus:ring-secondary transition-all" id="patient-name" placeholder="e.g. Ramesh Patel" required="" type="text"/>
+                    </div>
+                    <div class="space-y-1.5">
+                      <label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold" for="patient-phone">Phone Number *</label>
+                      <input class="w-full h-11 sm:h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-white focus:outline-none focus:ring-2 focus:ring-secondary transition-all" id="patient-phone" placeholder="e.g. 98980 12345" required="" type="tel"/>
+                    </div>
+                  </div>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="space-y-1.5">
+                      <label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold" for="treatment-select">Treatment Needed</label>
+                      <select class="w-full h-11 sm:h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-white focus:outline-none focus:ring-2 focus:ring-secondary transition-all" id="treatment-select">
+                        <option value="General Consultation">General Dental Checkup</option>
+                        <option value="Root Canal Treatment (RCT)">Root Canal Treatment (RCT)</option>
+                        <option value="Tooth Extraction">Tooth Extraction</option>
+                        <option value="Dental Implants">Dental Implants</option>
+                        <option value="Dental Bridges &amp; Crowns">Dental Bridges &amp; Crowns</option>
+                        <option value="Orthodontic Treatment">Orthodontic / Teeth Alignment</option>
+                        <option value="Smile Designing">Smile Designing / Cosmetic</option>
+                        <option value="Pediatric Dental Care">Pediatric / Child Dental Care</option>
+                        <option value="Tooth Pain / Emergency">Acute Toothache / Emergency</option>
+                      </select>
+                    </div>
+                    <div class="space-y-1.5">
+                      <label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold" for="preferred-time">Preferred Time Slot</label>
+                      <select class="w-full h-11 sm:h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-white focus:outline-none focus:ring-2 focus:ring-secondary transition-all" id="preferred-time">
+                        <option value="Morning (9:30 AM - 1:30 PM)">Morning: 9:30 AM – 1:30 PM</option>
+                        <option value="Evening (4:30 PM - 8:30 PM)">Evening: 4:30 PM – 8:30 PM</option>
+                        <option value="Urgent / Today">Earliest Available Today</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="space-y-1.5">
+                    <label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold" for="patient-notes">Notes or Symptoms (Optional)</label>
+                    <textarea class="w-full p-3.5 sm:p-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-white focus:outline-none focus:ring-2 focus:ring-secondary transition-all" id="patient-notes" placeholder="Briefly describe your symptoms or specific concerns..." rows="2"></textarea>
+                  </div>
+                  <button class="w-full h-12 sm:h-14 rounded-full bg-primary-container text-on-primary font-label-lg text-[12px] sm:text-label-lg uppercase tracking-wider hover:bg-primary transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-primary/20" type="submit">
+                    <span class="material-symbols-outlined text-[18px] sm:text-[20px]">send</span>
+                    <span>Send Appointment via WhatsApp</span>
+                  </button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 10: CLINIC LOCATION & MAPS -->
+      <section class="w-full py-12 sm:py-16 md:py-24 bg-surface-container-low" id="location">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="text-center max-w-2xl mx-auto space-y-3 mb-10 sm:mb-16">
+            <span class="font-label-lg text-label-lg text-secondary uppercase tracking-widest font-semibold">Find Our Clinic</span>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Visit Us in Adipur</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Conveniently located at Shop No. 1, DAZ 9, directly opposite Divine Life Hospital. Easy to access from anywhere in Adipur and Gandhidham.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-stretch">
+            <!-- Location Details Card -->
+            <div class="lg:col-span-5 bg-surface-container-lowest rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-sm flex flex-col justify-between space-y-6 sm:space-y-8 border border-outline-variant/20">
+              <div class="space-y-6">
+                <div>
+                  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container/80 text-primary font-label-md text-label-md font-semibold mb-3">
+                    <span class="material-symbols-outlined text-[16px]">location_on</span>
+                    <span>Opposite Divine Life Hospital</span>
+                  </div>
+                  <h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Dr. Sneha's Dental Care Clinic</h3>
+                  <p class="font-body-md text-body-md text-secondary font-medium mt-1">Cosmetic &amp; Implant Center • Adipur, Kutch</p>
+                </div>
+                <div class="space-y-4">
+                  <a class="flex items-start gap-3 group" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+                    <span class="material-symbols-outlined text-primary group-hover:text-secondary text-[22px] shrink-0 mt-0.5 transition-colors">place</span>
+                    <div>
+                      <p class="font-title-sm text-title-md font-semibold text-primary group-hover:text-secondary transition-colors">Full Clinic Address</p>
+                      <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Shop No. 1, DAZ 9, Opposite Divine Life Hospital, <br/>
+                        Adipur, Gujarat 370205, India.
+                      </p>
+                      <span class="text-[12px] font-medium text-secondary inline-block mt-0.5">Coordinates: 23.0692336, 70.0804785</span>
+                    </div>
+                  </a>
+                  <div class="flex items-start gap-3">
+                    <span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">call</span>
+                    <div>
+                      <p class="font-title-sm text-title-md font-semibold text-primary">Phone &amp; WhatsApp</p>
+                      <a class="font-body-md text-body-md text-primary font-semibold hover:underline" href="tel:+919898738509">
+                        +91 98987 38509
+                      </a>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">schedule</span>
+                    <div>
+                      <p class="font-title-sm text-title-md font-semibold text-primary">Consultation Timings</p>
+                      <p class="font-body-md text-body-md text-on-surface-variant">
+                        Monday to Saturday:<br/>
+                        <span class="font-medium text-primary">Morning:</span> 9:30 AM – 1:30 PM<br/>
+                        <span class="font-medium text-primary">Evening:</span> 4:30 PM – 8:30 PM<br/>
+                        <span class="font-body-sm text-body-sm text-secondary italic">Sunday: By prior appointment</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 sm:py-4 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:bg-primary transition-all duration-300 shadow-md text-center" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+                <span class="material-symbols-outlined text-[18px]">directions</span>
+                <span>Open in Google Maps</span>
+              </a>
+            </div>
+
+            <!-- Google Maps Interactive Frame -->
+            <div class="lg:col-span-7 rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm relative min-h-[360px] sm:min-h-[440px] bg-surface-container-high border border-outline-variant/30 flex flex-col">
+              <div class="w-full flex-1 min-h-[300px] sm:min-h-[380px] relative">
+                <iframe allowfullscreen="" class="w-full h-full min-h-[300px] sm:min-h-[380px] border-0" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=23.0692336,70.0804785&amp;z=17&amp;output=embed" style="border:0;" title="Dr. Sneha's Dental Care Clinic Map Location" width="100%"></iframe>
+              </div>
+              <div class="p-3.5 sm:p-5 bg-surface-container-lowest border-t border-outline-variant/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4">
+                <div class="flex items-center gap-3 w-full sm:w-auto">
+                  <img alt="Clinic Storefront Entrance Adipur" class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl object-cover shrink-0 border border-outline-variant/30" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHYessaCZuJz_nDYocl2Yfkl5M8LjOQV_6GCjI9ABsP0Jj8NHb969ZVp30Coak8wQU8JXwuGkai0URoI9VFjZoGBMqWp2U-9sjDWMoqbMdT4sems5MdIPmlP7HjlwL_bjrApK1Qw24V1d2Ovt-AJDUlGidSF2FkGr4nUr-IkdLNLaZDehx1o4Xq5pFdGBBtMGM-kKEGQsD_m67Ys0eZvv1sVvD-hcLsb10NvMw2oPbRG1vYuLWooQ"/>
+                  <div class="min-w-0">
+                    <p class="font-title-md text-title-md text-primary font-semibold truncate">Dr. Sneha's Dental Care Clinic</p>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant truncate">DAZ 9, Opp. Divine Life Hospital, Adipur</p>
+                  </div>
+                </div>
+                <a class="inline-flex items-center justify-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-full bg-secondary-container text-primary font-label-md text-label-md uppercase tracking-wider hover:bg-primary hover:text-white transition-colors shrink-0 font-semibold w-full sm:w-auto text-center" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+                  <span class="material-symbols-outlined text-[16px]">map</span>
+                  <span>Get Directions</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 11: FAQS -->
+      <section class="w-full py-12 sm:py-16 md:py-24 bg-surface" id="faq">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="text-center space-y-3 mb-10 sm:mb-16">
+            <span class="font-label-lg text-label-lg text-secondary uppercase tracking-widest font-semibold">Common Questions</span>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Frequently Asked Questions</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Everything you need to know about visiting Dr. Sneha's Dental Care in Adipur.
+            </p>
+          </div>
+          <!-- FAQ Accordion -->
+          <div class="space-y-3 sm:space-y-4" id="faq-accordion">
+            <!-- Q1 -->
+            <div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm transition-all duration-200">
+              <button class="w-full p-4 sm:p-6 text-left flex items-center justify-between gap-3 sm:gap-4 font-title-lg text-title-lg text-primary font-semibold hover:text-secondary transition-colors" onclick="toggleFaq(this)" type="button">
+                <span>How can I book a dental appointment?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 shrink-0">expand_more</span>
+              </button>
+              <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed hidden">
+                You can book directly by calling our clinic at <a class="text-primary font-semibold underline" href="tel:+919898738509">+91 98987 38509</a> or sending a quick message via <a class="text-primary font-semibold underline" href="https://wa.me/919898738509?text=Hello%20Dr.%20Sneha%27s%20Dental%20Care,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener noreferrer">WhatsApp</a>. We recommend booking in advance so our staff can reserve your preferred time slot and minimize your clinic wait time.
+              </div>
+            </div>
+            <!-- Q2 -->
+            <div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm transition-all duration-200">
+              <button class="w-full p-4 sm:p-6 text-left flex items-center justify-between gap-3 sm:gap-4 font-title-lg text-title-lg text-primary font-semibold hover:text-secondary transition-colors" onclick="toggleFaq(this)" type="button">
+                <span>Where is Dr. Sneha's Dental Care located?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 shrink-0">expand_more</span>
+              </button>
+              <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed hidden">
+                Our clinic is located at Shop No. 1, DAZ 9, directly Opposite Divine Life Hospital in Adipur, Gujarat 370205 (Coordinates: 23.0692336, 70.0804785). The clinic has easy ground-floor access and convenient street parking. <a class="text-primary font-semibold underline" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">Click here to open in Google Maps</a>.
+              </div>
+            </div>
+            <!-- Q3 -->
+            <div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm transition-all duration-200">
+              <button class="w-full p-4 sm:p-6 text-left flex items-center justify-between gap-3 sm:gap-4 font-title-lg text-title-lg text-primary font-semibold hover:text-secondary transition-colors" onclick="toggleFaq(this)" type="button">
+                <span>What dental treatments are available at the clinic?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 shrink-0">expand_more</span>
+              </button>
+              <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed hidden">
+                We provide full clinical dental care including Root Canal Treatment (RCT), Tooth Extraction, Titanium Dental Implants, Dental Bridges &amp; Crowns, Orthodontic Teeth Alignment, Aesthetic Smile Designing, and specialized pediatric dental care for children.
+              </div>
+            </div>
+            <!-- Q4 -->
+            <div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm transition-all duration-200">
+              <button class="w-full p-4 sm:p-6 text-left flex items-center justify-between gap-3 sm:gap-4 font-title-lg text-title-lg text-primary font-semibold hover:text-secondary transition-colors" onclick="toggleFaq(this)" type="button">
+                <span>How can I contact the clinic for emergencies?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 shrink-0">expand_more</span>
+              </button>
+              <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed hidden">
+                For urgent toothache or accidental dental trauma, please dial <a class="text-primary font-semibold underline" href="tel:+919898738509">+91 98987 38509</a> immediately. If visiting outside regular clinic hours, please call ahead so our team can accommodate you.
+              </div>
+            </div>
+            <!-- Q5 -->
+            <div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm transition-all duration-200">
+              <button class="w-full p-4 sm:p-6 text-left flex items-center justify-between gap-3 sm:gap-4 font-title-lg text-title-lg text-primary font-semibold hover:text-secondary transition-colors" onclick="toggleFaq(this)" type="button">
+                <span>How can I get directions to the clinic?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 shrink-0">expand_more</span>
+              </button>
+              <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-0 font-body-md text-body-md text-on-surface-variant leading-relaxed hidden">
+                Simply click the <a class="text-primary font-semibold underline" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">“Open in Google Maps”</a> button on this page. It will automatically load the exact verified location opposite Divine Life Hospital in Adipur and provide turn-by-turn directions.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 12: FINAL CONVERSION BANNER -->
+      <section class="w-full py-12 sm:py-16 md:py-20 bg-surface-container-high relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-center relative z-10 space-y-4 sm:space-y-6">
+          <span class="font-label-lg text-label-lg text-secondary uppercase tracking-widest font-semibold">Your Smile Starts Here</span>
+          <h2 class="hero-heading font-display-lg text-primary tracking-tight max-w-2xl mx-auto">
+            Ready for a Healthier, Confident Smile?
+          </h2>
+          <p class="font-body-md sm:font-body-lg text-body-md sm:text-body-lg text-on-surface-variant max-w-xl mx-auto leading-relaxed">
+            Connect with Dr. Sneha's Dental Care today to enquire about your next dental consultation in Adipur.
+          </p>
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 pt-2 sm:pt-4">
+            <a class="inline-flex items-center justify-center gap-3 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:bg-primary transition-all duration-300 shadow-lg shadow-primary/20 text-center" href="https://wa.me/919898738509?text=Hello%20Dr.%20Sneha%27s%20Dental%20Care,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." rel="noopener noreferrer" target="_blank">
+              <span class="material-symbols-outlined text-[20px]">chat</span>
+              <span>Book via WhatsApp</span>
+            </a>
+            <a class="inline-flex items-center justify-center gap-3 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg uppercase tracking-wider hover:bg-white transition-all duration-300 shadow-sm text-center" href="tel:+919898738509">
+              <span class="material-symbols-outlined text-[20px]">call</span>
+              <span>Call Clinic (+91 98987 38509)</span>
+            </a>
+            <a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 sm:py-4 rounded-full bg-secondary-container text-primary font-label-lg text-label-lg uppercase tracking-wider hover:bg-primary hover:text-white transition-all duration-300 text-center" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">
+              <span class="material-symbols-outlined text-[18px]">map</span>
+              <span>Location &amp; Maps</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-surface-container-low border-t border-outline-variant/30 text-on-surface-variant pb-20 sm:pb-0">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10">
+        <!-- Col 1 -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <img alt="Dr. Sneha's Dental Care Clinic Logo" class="h-10 sm:h-12 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHSuLQBcUP0uaxQ3Q19ukAadtsiWczXFxGL21tc1ItbsBP8rg5V1Qk9FneuXcwtEIqUzIVG8vO0NOQUCOir6I_BJLW4pUYzWUeQe1CGDeiVuv-rGcbOUtY1Ev9kuwIZYSYO6JVJ4xG8U3hMt98NlbpNVIXmwG84WQ0o-MblTVTBRFyxeRPXEVQmyjIUnPn6zbmbijODfKsO2G-c_ngulyNnmrUJ6qHlSS8kKPegDbt-CBRaQns8N4"/>
+            <div class="flex flex-col">
+              <span class="font-headline-sm text-headline-sm text-primary leading-tight font-medium">Dr. Sneha's Dental Care</span>
+              <span class="font-label-md text-label-md text-secondary uppercase font-semibold tracking-wider">Cosmetic and Implant Center</span>
+            </div>
+          </div>
+          <p class="font-body-md text-body-md text-on-surface-variant max-w-sm leading-relaxed">Providing high-standard cosmetic, restorative, and pediatric dental medicine in a serene, hygienic clinical setting with gentle, patient-first care.</p>
+          <div class="pt-2 space-y-2.5">
+            <div class="flex items-start gap-2.5 text-body-sm font-body-sm">
+              <span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">location_on</span>
+              <a class="hover:text-primary transition-colors" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">Shop No. 1, DAZ 9, Opposite Divine Life Hospital, Adipur, Gujarat 370205, India</a>
+            </div>
+            <div class="flex items-center gap-2.5 text-body-sm font-body-sm">
+              <span class="material-symbols-outlined text-primary text-[20px] shrink-0">call</span>
+              <a class="text-primary font-semibold hover:underline" href="tel:+919898738509">+91 98987 38509</a>
+            </div>
+            <div class="flex items-center gap-2.5 text-body-sm font-body-sm">
+              <span class="material-symbols-outlined text-primary text-[20px] shrink-0">schedule</span>
+              <span>Mon - Sat: 9:30 AM – 1:30 PM • 4:30 PM – 8:30 PM</span>
+            </div>
+          </div>
+        </div>
+        <!-- Col 2 -->
+        <div>
+          <h4 class="font-title-lg text-title-lg text-primary mb-3 sm:mb-4 font-semibold">Quick Links</h4>
+          <ul class="space-y-2.5 font-body-md text-body-md">
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="home" href="#">Home Overview</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="about-dr-sneha" href="#about">About Dr. Sneha</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="cases" href="#cases">Real Transformations</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="why-choose-us" href="#why-choose-us">Why Choose Us</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="patient-reviews" href="#reviews">Patient Testimonials</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="clinic-location" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">Clinic Location (Maps)</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="faq" href="#faq">Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+        <!-- Col 3 -->
+        <div>
+          <h4 class="font-title-lg text-title-lg text-primary mb-3 sm:mb-4 font-semibold">Our Treatments</h4>
+          <ul class="space-y-2.5 font-body-md text-body-md">
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="treatments" href="#treatments">Root Canal Treatment (RCT)</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="treatments" href="#treatments">Gentle Tooth Extraction</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="treatments" href="#treatments">Titanium Dental Implants</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="treatments" href="#treatments">Crowns &amp; Bridges</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="treatments" href="#treatments">Orthodontics &amp; Alignment</a></li>
+            <li class="nav-item"><a class="hover:text-primary transition-colors" data-path="treatments" href="#treatments">Pediatric Dental Care</a></li>
+          </ul>
+        </div>
+        <!-- Col 4 -->
+        <div class="space-y-4">
+          <h4 class="font-title-lg text-title-lg text-primary mb-3 sm:mb-4 font-semibold">Visit &amp; Connect</h4>
+          <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Easily access our clinic opposite Divine Life Hospital. Direct appointment support is available on WhatsApp.</p>
+          <div class="flex flex-col gap-3">
+            <a class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-colors shadow-sm" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">map</span>Get Google Maps Directions</a>
+            <a class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full bg-tertiary-container text-on-tertiary-container font-label-lg text-label-lg hover:bg-tertiary transition-colors shadow-sm" href="https://wa.me/919898738509?text=Hello%20Dr.%20Sneha%27s%20Dental%20Care,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span>WhatsApp Consultation</a>
+          </div>
+        </div>
+      </div>
+      <!-- Bottom Bar -->
+      <div class="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-center md:text-left">
+        <p class="text-on-surface-variant">© 2025 Dr. Sneha's Dental Care Clinic (Cosmetic &amp; Implant Center). All Rights Reserved. Adipur, Gujarat.</p>
+        <div class="flex items-center justify-center gap-4 sm:gap-6 text-on-surface-variant">
+          <a class="hover:text-primary transition-colors" data-path="faq" href="#faq">Patient Privacy</a>
+          <a class="hover:text-primary transition-colors" data-path="faq" href="#faq">Terms of Care</a>
+          <a class="hover:text-primary transition-colors" data-path="clinic-location" href="https://www.google.com/maps/place/Dr+sneha's+Dental+care+clinic/@23.0692336,70.0804785,17z/data=!3m1!4b1!4m6!3m5!1s0x3950b9c5ab28e711:0xb299f53ca7e681b7!8m2!3d23.0692336!4d70.0804785!16s%2Fg%2F11vlp_kkvk" rel="noopener noreferrer" target="_blank">Emergency Protocols</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING ACTION BUTTONS: Compact circular buttons on mobile, labeled pills on desktop -->
+  <div class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex flex-col items-end gap-2.5 sm:gap-3">
+    <a aria-label="Chat on WhatsApp" class="floating-btn group flex items-center gap-3 p-0 sm:pl-4 sm:pr-3 sm:py-2.5 rounded-full bg-surface-container-lowest text-primary shadow-[0_8px_24px_-4px_rgba(7,56,60,0.22)] hover:bg-tertiary-container hover:text-white transition-all duration-300 border border-outline-variant/20" href="https://wa.me/919898738509?text=Hello%20Dr.%20Sneha%27s%20Dental%20Care,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." rel="noopener noreferrer" target="_blank">
+      <span class="font-label-lg text-label-lg hidden sm:inline">Chat with Clinic</span>
+      <div class="floating-btn-icon w-11 h-11 sm:w-10 sm:h-10 rounded-full bg-tertiary-container text-on-tertiary-container group-hover:bg-white group-hover:text-primary flex items-center justify-center transition-colors">
+        <span class="material-symbols-outlined text-[20px] sm:text-[22px]">chat</span>
+      </div>
+    </a>
+    <a aria-label="Call Clinic" class="floating-btn group flex items-center gap-3 p-0 sm:pl-4 sm:pr-3 sm:py-2.5 rounded-full bg-primary-container text-on-primary shadow-[0_8px_24px_-4px_rgba(7,56,60,0.25)] hover:bg-primary transition-all duration-300" href="tel:+919898738509">
+      <span class="font-label-lg text-label-lg hidden sm:inline">Call +91 98987 38509</span>
+      <div class="floating-btn-icon w-11 h-11 sm:w-10 sm:h-10 rounded-full bg-white text-primary flex items-center justify-center">
+        <span class="material-symbols-outlined text-[19px] sm:text-[20px]">call</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- JAVASCRIPT FOR FORM & FAQ ACCORDION -->
+  <script>
+    function handleAppointmentSubmit(event) {
+      event.preventDefault();
+      const name = document.getElementById('patient-name').value.trim();
+      const phone = document.getElementById('patient-phone').value.trim();
+      const treatment = document.getElementById('treatment-select').value;
+      const timeSlot = document.getElementById('preferred-time').value;
+      const notes = document.getElementById('patient-notes').value.trim();
+
+      let message = `Hello Dr. Sneha's Dental Care, I would like to request an appointment:%0A`;
+      message += `• Patient Name: ${encodeURIComponent(name)}%0A`;
+      message += `• Contact Phone: ${encodeURIComponent(phone)}%0A`;
+      message += `• Treatment: ${encodeURIComponent(treatment)}%0A`;
+      message += `• Preferred Slot: ${encodeURIComponent(timeSlot)}%0A`;
+      if (notes) {
+        message += `• Notes: ${encodeURIComponent(notes)}%0A`;
+      }
+
+      const whatsappUrl = `https://wa.me/919898738509?text=${message}`;
+      window.open(whatsappUrl, '_blank');
+    }
+
+    function toggleFaq(button) {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('.material-symbols-outlined');
+      const isHidden = content.classList.contains('hidden');
+
+      // Close other opened questions in accordion
+      const allContents = document.querySelectorAll('#faq-accordion > div > div');
+      const allIcons = document.querySelectorAll('#faq-accordion > div button span.material-symbols-outlined');
+      allContents.forEach(el => el.classList.add('hidden'));
+      allIcons.forEach(ic => ic.style.transform = 'rotate(0deg)');
+
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        content.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const btnIcon = document.querySelector('#mobile-menu-btn .material-symbols-outlined');
+      if (!menu) return;
+      const isHidden = menu.classList.contains('hidden');
+      if (isHidden) {
+        menu.classList.remove('hidden');
+        if (btnIcon) btnIcon.textContent = 'close';
+      } else {
+        menu.classList.add('hidden');
+        if (btnIcon) btnIcon.textContent = 'menu';
+      }
+    }
+  </script>
+</body>
+</html>
